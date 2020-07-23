@@ -13,8 +13,9 @@ public class String_Concatination {
 		String x = "Hello";										        								
 		String y = "World";
 		
-		System.out.println(a+"\t"+b);
-		System.out.println(a+"\n"+b);
+		System.out.println(a+"\t"+b); // means tab multiple space 
+		
+		System.out.println(a+"\n"+b);  // means new line 
 
 		
 		System.out.println(a+b);//300
