@@ -74,9 +74,9 @@ public class ConditionalOperators {
 		}
 		
 		
-		String studentName = "Shreesh";
+		String studentName = "Jeyhun";
 		int marks = 100;
-		if(studentName.equals("Shreesh")){
+		if(studentName.equals("Jeyhun")){
 			if(marks==100){
 				System.out.println("Excellent");
 			}

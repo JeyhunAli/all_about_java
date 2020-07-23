@@ -10,7 +10,7 @@ public class dataTypes {
 		// primitive data type  boolean true or false 
 		// numeric data type -- integer family int long byte short
 		// floating: float, double 
-		// non primmitive data type: String, Char
+		// non primmitive data type: String 
 
 		/**
 		 * byte	-------  1 byte	Stores whole numbers from -128 to 127
