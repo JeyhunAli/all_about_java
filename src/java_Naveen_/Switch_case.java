@@ -53,11 +53,27 @@ public class Switch_case {
 		else if(studentNAme.equalsIgnoreCase("Adam")) {
 			if(marks==99) {
 				System.out.println("more than excellent");
-		          }
-            }
+			}
+		}
 		else {
 			System.out.println("failure");
 
+		}
+
+
+		int markss = 50;
+
+		switch (markss) {
+		case 100:
+			System.out.println("Excellent");
+			break;
+		case 90:
+			System.out.println("GRADE A");
+			break;
+
+		default:
+			System.out.println("FAILURE");
+			break;
 		}
 
 
