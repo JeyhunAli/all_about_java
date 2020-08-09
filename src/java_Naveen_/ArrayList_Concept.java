@@ -47,6 +47,7 @@ public class ArrayList_Concept {
 		
 		ar.add(100);//0
 		ar.add(200);//1
+		ar.set(0, 12266);
 		
 		System.out.println(ar.size());
 		
