@@ -5,23 +5,19 @@ public class ReversingInteger {
 	public static void main(String[] args) {
 
 
-
-		int numbers = 123456789;
-
-		int rev = 0;
-
-		while (numbers !=0) {
-
-			rev = rev*10+numbers%10;
-
-			numbers = numbers / 10;
-
+		
+		
+		int num = 123456;
+		int reverse = 0;
+		
+		while(num !=0) {
+      reverse = reverse*10+num%10;
+      num=num/10;
+      
 		}
-
-		System.out.println("reversed integer numbers are " + rev );
-
+				
+		System.out.println(reverse);
 	}
-
 
 
 

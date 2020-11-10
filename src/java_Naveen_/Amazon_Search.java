@@ -3,15 +3,16 @@ package java_Naveen_;
 public class Amazon_Search {
 
 	// Method Overloading also calls ----->>> (compile Time Poly+Morphism):
-	
-	// with in the same class:
-	
+
+	// within the same class:
+
 	// 1. same method name
 	// 2. different types of params / different numbers of params
 	// 3. sequence of params
-	
-	//main method can be overloaded but main() signature should not be changed for JVM
-	//static methods can be overloaded
+
+	// main method can be overloaded but main() signature should not be changed for
+	// JVM
+	// static methods can be overloaded
 
 	public void search() { // 0 param
 		System.out.println("0 param search");
@@ -40,20 +41,16 @@ public class Amazon_Search {
 	public static void main(String[] args) {
 
 		/**
-		 * to access all the method above we are creating object of the class
-		 * if the methods would be as ststic no need to create object we can call them directly
+		 * to access all the method above we are creating object of the class if the
+		 * methods would be as ststic no need to create object we can call them directly
 		 * 
-		 * OTP stands for 'One Time Password'.
-           OTP testing is an innovation testing technique or testing approach.
-            These days OTP is widely used for the security purpose in all 
-            applications so that genuine user can only have the access.
+		 * OTP stands for 'One Time Password'. OTP testing is an innovation testing
+		 * technique or testing approach. These days OTP is widely used for the security
+		 * purpose in all applications so that genuine user can only have the access.
 		 * 
 		 * 
 		 */
-		
-		
-		
-		
+
 		Amazon_Search am = new Amazon_Search();
 		am.search();
 		am.search(1000);

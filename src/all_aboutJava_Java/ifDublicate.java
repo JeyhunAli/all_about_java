@@ -1,37 +1,37 @@
 package all_aboutJava_Java;
 
 public class ifDublicate {
-
+	
+	// check if given String contains any dublicate charcters
+	
 	public static void main(String[] args) {
-
-		String senteces = "check if given string contains dublicate charchters?";
-		System.out.println(senteces);
 		
-		String charachters = "";
-		String dublicates = "";
+		checkDublicate("check if given String contains any dublicate charcters");
+		//here calling method into main method 
 		
-		for(int i=0; i<senteces.length(); i++) {
+	}
+	public static void checkDublicate(String sentence) {
+		
+		System.out.println("given String is: "+ sentence);
+		
+		String charcters = "";
+		String dublicate = "";
+		
+		for(int i=0; i<sentence.length(); i++) {
+			String currentChar = Character.toString(sentence.charAt(i));
+			//here charcter is class which is able to convert String to char and store it 
 			
-			//char current = senteces.charAt(i);
-			
-			String current = Character.toString(senteces.charAt(i));
-			if(charachters.contains(current)) {
+			if(charcters.contains(currentChar)) {
 				
-				if( ! dublicates.contains(current)) {
-					dublicates += current + " , ";
-					
-					
+				if(!dublicate.contains(currentChar)) {
+					// means if dublicate not contains currentchar
+					dublicate +=currentChar + " , ";
 				}
-			
 			}
-			
-			charachters += current;
+			charcters+=currentChar;
 			
 		}
-		
-		System.out.println(dublicates);
-		
+		System.out.println("dublicate charcters are: "+ dublicate);
 	}
 	
 }
-

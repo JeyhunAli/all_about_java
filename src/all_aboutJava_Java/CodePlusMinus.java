@@ -1,42 +1,29 @@
 package all_aboutJava_Java;
 
+import java.util.Scanner;
+
 public class CodePlusMinus {
 
-	
-	//lowest prime is 2
-	
 	public static void main(String[] args) {
+
+	
+	
+		Scanner reader = new Scanner(System.in);
+		System.out.println("plz enter your number: ");
 		
-		System.out.println(isPrime(24));
+	int number = reader.nextInt();
+	
+	if(number % 2 == 0) {
+		System.out.println(number + " even number");
+	}
+	else {
+		System.out.println(number + " odd number");
+
+	}
+		
 		
 	}
 	
 	
-	public static boolean isPrime(int num) {
-		
-		while (num <= 1) {
-			return false ;
-			
-		}
-		
-		for(int i=2; i<num; i++) {
-			
-			if(num % i == 0) {
-				return false;
-			}
-		}
-		return true;
-		
-	}
-	
+
 }
-
-	
-		
-	
-
-
-	
-
-
-
