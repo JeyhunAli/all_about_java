@@ -5,7 +5,7 @@ public class ischarAlphabetorNot {
 	public static void main(String[] args) {
 
 		
-		ischaralphabetornot('*');
+		ischaralphabetornot('k');
 		
 		
 		

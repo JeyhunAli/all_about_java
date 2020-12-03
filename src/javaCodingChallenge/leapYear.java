@@ -8,9 +8,10 @@ package javaCodingChallenge;
  *         that if a year number is evenly divisible by 4 is a leap year. But it
  *         is not the only case. A year is a leap year if −
  * 
- *         1. It is evenly divisible by 100 2. If it is divisible by 100, then
- *         it should also be divisible by 400 3. Except this, all other years
- *         evenly divisible by 4 are leap years.
+ *         1. It is evenly divisible by 100 
+ *         2. If it is divisible by 100, then it should also be divisible by 400 
+ *         3. Except this, all other years evenly divisible by 
+ *         4 are leap years.
  * 
  *         Algorithm 1. Take integer variable year 2. Assign a value to the
  *         variable 3. Check if the year is divisible by 4 but not 100, DISPLAY
