@@ -8,13 +8,13 @@ public class PrintInteger {
 
 		Scanner reader = new Scanner(System.in);
 		System.out.println("plz enter a number:");
-		
-		int num = reader.nextInt();
-		//System.out.println("u entered a number: "+ num);
-		System.out.println("plz add another num then hit enter " +num);
-		System.out.println("the anwer is: " + (num + reader.nextInt()));
 
-		
+		int num = reader.nextInt();
+
+		System.out.println("plz enter another number: ");
+                                                                         //if you dont put a bracket it will add
+		                                                                  // like string (string manupliation)
+		System.out.println("The answer is: " + (num + reader.nextInt()));
 	}
 
 }

@@ -11,6 +11,7 @@ public class MultiplyTwoFloatNumber {
 		System.out.println("the answer of multiplication is: " + (a*b));
 		
 		
+		
 
 	}
 

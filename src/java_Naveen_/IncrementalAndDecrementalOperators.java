@@ -13,9 +13,13 @@ public class IncrementalAndDecrementalOperators {
 		 * -- means decrease the value by one 
 		 */
 
+		System.out.println("hello world " + 'a' + 'b');   //hello world ab
+		System.out.println("hello world " + ('a' + 'b'));   //hello world 195 
+		
+		
 		
 		int a = 1;
-		int b = a++; //post increment
+		int b = a++; //post increment  means increase later
 		
 		// here a is 1. 1 immediately given to the b.  b now is one a is increased by one its now 2 
 		
@@ -31,7 +35,7 @@ public class IncrementalAndDecrementalOperators {
 		System.out.println(n);//-1
 		
 		int p = 1;
-		int q = ++p; //pre increment
+		int q = ++p; //pre increment  means increase the value first
 		
 		//here p is 1 pre increment means first increase the value  p now 2 it given to the q 
 		System.out.println(p);//2
@@ -59,6 +63,19 @@ public class IncrementalAndDecrementalOperators {
 		int s2 = --s1;
 		System.out.println(s1);//-1
 		System.out.println(s2);//-1
+		
+		
+		
+		int v = 2;
+		System.out.println(v++); //2 why because this post increase 
+		//in post increase first printing original value 
+		System.out.println(v); //3 because first orignal value then post incremented value
+		
+		int v1 = 2;
+		System.out.println(++v1); //3 because its pre increment 
+		// first incrmeent 
+		
+		
 		
 		
 	}

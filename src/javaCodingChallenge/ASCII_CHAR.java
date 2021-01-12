@@ -5,7 +5,7 @@ public class ASCII_CHAR {
 	public static void main(String[] args) {
 
 		
-		findingAsciiValue('@');
+		findingAsciiValue('j');
 		
 		
 	}
@@ -13,6 +13,7 @@ public class ASCII_CHAR {
 	public static void findingAsciiValue(char charackter) {
 		char a = charackter;
 		int ascii = a;
+		System.out.println("the charakter is: " +a);
 		System.out.println("the ascii value is: " + ascii);
 		
 		
@@ -67,6 +68,7 @@ Dec  Char                           Dec  Char     Dec  Char     Dec  Char
 29  GS  (group separator)           61  =         93  ]        125  }
 30  RS  (record separator)          62  >         94  ^        126  ~
 31  US  (unit separator)            63  ?         95  _        127  DEL
+
 
      */
 

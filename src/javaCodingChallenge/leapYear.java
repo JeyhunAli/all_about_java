@@ -28,6 +28,8 @@ public class leapYear {
 		leapyear_2(1958);
 		leapyear_2(1962);
 		leapyear_2(1989);
+		
+		System.out.println(ConsoleColors.RED_UNDERLINED + " ------->>>>> ");
 	}
 
 	public static void leapyear_1(int year) {
@@ -53,6 +55,20 @@ public class leapYear {
 		else {
 			System.out.println(ConsoleColors.BLUE_BOLD_BRIGHT + year + " - Specified year is not a leap year");
 	}
+		
+			
+		
 
 }
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
 }

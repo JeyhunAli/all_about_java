@@ -24,7 +24,7 @@ public class NaturalNumber {
 			sum=sum+i;
 			
 		}
-		System.out.println(sum);
+		System.out.println(ConsoleColors.RED_ITALIC +" hey im natural "+ sum);
 
 	}
 	

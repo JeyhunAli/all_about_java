@@ -84,6 +84,7 @@ public class dataTypes {
 		char c11 = 'b';
 		char c2 = '1';
 		char c3 = '$';
+		char c4 = 'b';
 
 		System.out.println(c1);
 		System.out.println(c1+c11);//97 + 98 = 195
@@ -100,7 +101,7 @@ public class dataTypes {
 		System.out.println(flag1);
 
 
-		//9. String:
+		//9. String: is Class in java 
 		String str = "Hello World";
 		System.out.println(str);
 
