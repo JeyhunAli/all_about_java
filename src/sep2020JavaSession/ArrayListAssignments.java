@@ -39,6 +39,8 @@ public class ArrayListAssignments {
 		ar1.add(0, "yellow");
 		System.out.println("after adding new value to the first position-->> " + ar1);
 		System.out.println("*************");
+		
+		
 //			3. Write a Java program to retrieve an element (at a specified index) from a
 //			   given array list.
 

@@ -12,9 +12,9 @@ public class ASCII_CHAR {
 	
 	public static void findingAsciiValue(char charackter) {
 		char a = charackter;
-		int ascii = a;
+		int asciiNum = a;
 		System.out.println("the charakter is: " +a);
-		System.out.println("the ascii value is: " + ascii);
+		System.out.println("the ascii value is: " + asciiNum);
 		
 		
 	}

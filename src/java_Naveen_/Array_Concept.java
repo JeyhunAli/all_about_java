@@ -5,7 +5,10 @@ public class Array_Concept {
 
 	public static void main(String[] args) {
 		
+		
 		// Array is collection of similar kind of values 
+		// Array is storing in java in stack memorie
+		// in java theres no negative indexing  for example -1 -2  it start from zero
 		//limitations of array:
 		//1. size is fixed: static array: To overcome this problem, we use dynamic array: ArrayList - collections
 		//2. can store only similar types of values: TO overcome this issues, we use Object Array -- but this is also static array

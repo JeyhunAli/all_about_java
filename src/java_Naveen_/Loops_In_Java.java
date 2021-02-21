@@ -1,5 +1,7 @@
 package java_Naveen_;
 
+import javaCodingChallenge.ConsoleColors;
+
 public class Loops_In_Java {
 
 	public static void main(String[] args) {
@@ -8,8 +10,17 @@ public class Loops_In_Java {
 		
 		//1 to 10
 		
+		int r=1;
+		while(r<=10) {
+			System.out.println(r);
+			r++;
+		}
+		
+		System.out.println(ConsoleColors.DARK_BLUE + "-------------");
+		
 		/**
-		 * loops in java to print given statement again and again but we have to break it in someWhere
+		 * loops in java to print given statement again and again
+		 * but we have to break it in someWhere
 		 * means doing something repetadly
 		 * 
 		 * % operator is used to get reminder how by dividing numbers
@@ -62,7 +73,7 @@ public class Loops_In_Java {
 					u--;
 				}
 				
-				System.out.println("---------------");
+				System.out.println(ConsoleColors.BANANA_YELLOW + "---------------");
 
 				
 				int p =1;
@@ -111,6 +122,8 @@ public class Loops_In_Java {
 				
 				System.out.println("---------------");
 
+				
+				//here we cannot compare small z with the capital Z if we do it will return blank nothing will print 
 				for(char c = 'a'; c<= 'z'; c++) {
 					System.out.println(c);
 				}
@@ -123,7 +136,8 @@ public class Loops_In_Java {
 				
 				/**
 				 * when to use while loop when do while loop 
-				 * so if we 
+				 * so if we need to print before starting our loop we can use do while loop 
+				 *   
 				 * 
 				 */
 				int t = 1;
@@ -136,3 +150,22 @@ public class Loops_In_Java {
 			}
 
 		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
