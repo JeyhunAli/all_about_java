@@ -27,21 +27,19 @@ public class Vowels_and_Consonants {
 	
 	public static void ifVowels_orConsonants(char c) {
 		
-		switch (c) {
-		case 'a':
-		case 'e':
-		case 'i':
-		case 'u':
-		case 'o':
-			System.out.println(c + " is Vowel");
-
+	switch (c) {
+	case 'a':
+	case 'e':		
+	case 'o':		
+	case 'i':
+	case 'u':
+		System.out.println(c + " is Vowel");
 		break;
 
-		default:
-			System.out.println(c + " is Consonant");
-
-			break;
-		}
+	default:
+		System.out.println(c + " is Consonant");
+		break;
+	}
 		
 		
 	}

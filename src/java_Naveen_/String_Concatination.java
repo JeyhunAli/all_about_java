@@ -68,6 +68,32 @@ public class String_Concatination {
 		System.out.print(30000);
 		
 		
+		
+		
+		int i = 4/2;
+		System.out.println(i);
+		System.out.println(4/2);
+		System.out.println(5/2);//2.5 --> 2
+		System.out.println(5.0/2);//2.5
+		System.out.println(5/2.0);//2.5
+		System.out.println(5.0/2.0);//2.5
+		
+		//float k =  (float) (9/2.0);
+		float k = 9/2.0f;
+		System.out.println(k);
+		
+//		int p = 9/0; //0/0 //java.lang.ArithmeticException: / by zero
+//		System.out.println(p);
+		
+		int m = 0/100;
+		System.out.println(m);
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }

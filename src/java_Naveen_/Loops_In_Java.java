@@ -1,5 +1,7 @@
 package java_Naveen_;
 
+import javaCodingChallenge.ConsoleColors;
+
 public class Loops_In_Java {
 
 	public static void main(String[] args) {
@@ -8,8 +10,17 @@ public class Loops_In_Java {
 		
 		//1 to 10
 		
+		int r=1;
+		while(r<=10) {
+			System.out.println(r);
+			r++;
+		}
+		
+		System.out.println(ConsoleColors.DARK_BLUE + "-------------");
+		
 		/**
-		 * loops in java lets say to print someting again and again 
+		 * loops in java to print given statement again and again
+		 * but we have to break it in someWhere
 		 * means doing something repetadly
 		 * 
 		 * % operator is used to get reminder how by dividing numbers
@@ -19,13 +30,15 @@ public class Loops_In_Java {
 		 * 
 		 * note: Differences between For Loop And While loop
 		 * 
-		 * 1 for loop we use where we have order base collection what i mean by that for example 
+		 * 1 initialization is part of the for loop
+		 * for loop we use where we have order base collection what i mean by that for example 
 		 * from zero to 10  its order base we put condition there counter and increasing or decreasing the given number by order base 
 		 * then we can fecth all the values or we can click on specific element for that we use for loop 
 		 * list interface, array list can be example for that 
 		 * 
 		 * 
-		 * 2 while loop is not suitable,conveniant for this type of the collection 
+		 * 2 initialization is not part of the while loop 
+		 * while loop is not suitable,conveniant for this type of the collection 
 		 * where exactly as Automation engineer we use while loop in our framework 
 		 * while loop it s very conveniant with wait statement in selenium 
 		 * let see    first im initializing element 
@@ -51,6 +64,8 @@ public class Loops_In_Java {
 					i++; //incremental/decremental
 				}
 				
+				System.out.println("---------------");
+
 				
 				int u = 10;
 				while(u>=1) {
@@ -58,6 +73,8 @@ public class Loops_In_Java {
 					u--;
 				}
 				
+				System.out.println(ConsoleColors.BANANA_YELLOW + "---------------");
+
 				
 				int p =1;
 				while(p<=20){
@@ -66,6 +83,8 @@ public class Loops_In_Java {
 					}
 					p++;
 				}
+				System.out.println("---------------");
+
 				
 //				while(true){
 //					System.out.println("hey");
@@ -75,6 +94,8 @@ public class Loops_In_Java {
 				for(int k=1; k<=10; k++){
 					System.out.println(k);//1 2 3 .......10
 				}
+				
+				System.out.println("---------------");
 				
 //				for(; ;){
 //					System.out.println("JAVA");
@@ -91,13 +112,34 @@ public class Loops_In_Java {
 					System.out.println(even);//0 2 4  6
 				}
 				
+				System.out.println("---------------");
+
 				//odd numbers:
 				//1 3 5 7 9
 				for(int odd=1; odd<=9; odd=odd+2){
 					System.out.println(odd);//1 3
 				}
 				
+				System.out.println("---------------");
+
+				
+				//here we cannot compare small z with the capital Z if we do it will return blank nothing will print 
+				for(char c = 'a'; c<= 'z'; c++) {
+					System.out.println(c);
+				}
+				
+				
+				System.out.println("---------------");
+
 				//do-while:
+				//in do while loop statement comes first with incremental decremantal part then condition
+				
+				/**
+				 * when to use while loop when do while loop 
+				 * so if we need to print before starting our loop we can use do while loop 
+				 *   
+				 * 
+				 */
 				int t = 1;
 				do{
 					System.out.println(t);
@@ -108,3 +150,22 @@ public class Loops_In_Java {
 			}
 
 		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

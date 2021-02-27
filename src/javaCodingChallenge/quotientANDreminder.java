@@ -1,5 +1,6 @@
 package javaCodingChallenge;
 
+
 public class quotientANDreminder {
 
 	public static void main(String[] args) {
@@ -9,6 +10,15 @@ public class quotientANDreminder {
 		
 		
 		conceptof_quotientANDreminder(4757464, 6474);
+		
+		
+		
+		int div = 20;
+		int divis = 5;
+		
+		int quotient = div/divis;
+		int reminder = div%divis;
+		System.out.println(ConsoleColors.BLUE + "quotient is: " + quotient+ " reminder is: " + reminder);
 		
 		
 	}
@@ -21,9 +31,11 @@ public class quotientANDreminder {
 	    int quotient = dividend / divisor;
 	    int reminder = dividend % divisor;
 	    
-	    System.out.println("quotient is: " + quotient + " reminder is: " + reminder);
+	    System.out.println(ConsoleColors.ORANGE + "quotient is: " + quotient + " reminder is: " + reminder);
 		
 		
+	    
+	    
 	}
 
 }
