@@ -13,14 +13,15 @@ package Inheritance;
  *         car only this problem called in java in iheritance concept like
  *         dimond problem dimond problem we can solve with interface concept
  * 
- *         Oops concept inheritance Inheritance concept in java to inherit
+ *         Oops Inheritance concept in java to inherit
  *         properties from parent class we cannot inherit from multiple parent
  *         Only one parent But we have multilevel inheritance How is that works
  *         Child class can access to parent class and as well ass parent of
  *         parent class This calls multilevel inheritance between child classes
  *         there's no relationship but they have common parent In inheritance we
  *         are achieving method overriding Same class in parent class and we
- *         override it in child class with same name Keyword of inheritance
+ *         override it in child class with same name 
+ *         Keyword of inheritance
  *         concept is extends Most of the time in inheritance concept parent
  *         class child class And test class we creating to achieve inheritance
  *         concept and method overriding In test class we can create object of
@@ -31,7 +32,7 @@ package Inheritance;
  *         class Its good practice in child class to add @override method
  *         annotations which is override method Same method same parameters .
  *         Run time polymorphism means When we have same method in parent and in
- *         child class at the run time java compiler will decide to run child
+ *         child class at the run time jVM will decide to run child
  *         class method this calls runtime polymorphism
  *         
  *         inherited methods, overriden methods, separete methods 

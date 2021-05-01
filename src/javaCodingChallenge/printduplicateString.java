@@ -4,16 +4,16 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class duplicateString {
+public class printduplicateString {
 
 	public static void main(String[] args) {
 		
-		printDublicate("java");
+		printRepetetiveChar("selenium Selenium");
 		
 	}
 	
 	
-	public static void printDublicate(String str) {
+	public static void printRepetetiveChar(String str) {
 		
 		if(str==null) {
 			System.out.println("null string");
@@ -38,7 +38,7 @@ public class duplicateString {
 		Set<Map.Entry<Character, Integer>>  entrysett = charactermap.entrySet();
 		for(Map.Entry<Character, Integer> entry : entrysett) {
 			if(entry.getValue()>1) {
-				System.out.println(entry.getKey()+ " : " + entry.getValue() + " times");
+				System.out.println(entry.getKey()+ " : " + entry.getValue() + " -> times");
 			}
 		}
 		

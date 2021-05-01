@@ -3,7 +3,7 @@ package Interface;
 public interface IndianMedical {
 
 	/**
-	 * //no method body in interface only method declaration protatype //cannot
+	 * no method body in interface only method declaration protatype //cannot
 	 * create object of interface , interface cannot be instantiate //in interface
 	 * we can define the variables and the given variables in interface are not
 	 * allowed to change //when we accesing the interface variables the given value

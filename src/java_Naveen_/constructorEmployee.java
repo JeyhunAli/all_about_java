@@ -17,6 +17,7 @@ public class constructorEmployee {
 	//no return and void keywords in cost....
 	//can overload the const...
 	//const.. will be called when we create the object of the class.
+	//const.. can be private also but it will aplicable only for that class
 
 	
 	public constructorEmployee(){ //0 param //default const..
