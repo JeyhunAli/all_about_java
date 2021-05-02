@@ -15,6 +15,11 @@ public class StringComparison {
 
 		input();
 		input_2();
+		System.out.println();
+		input_3();
+		reverseString();
+		reverse_words_in_Sentence();
+		
 		
 		
 		
@@ -40,33 +45,69 @@ public class StringComparison {
 	
 	public static void input_2() {
 
-		String s = "AAAABBCCCDDDDDEEEG";
-		ArrayList<Character> list = new ArrayList<>();
-		for (int i = 0; i < s.length(); i++) {
-			int count = 1;
-			if (!list.contains(s.charAt(i))) {
-				list.add(s.charAt(i));
-				for (int j = i + 1; j < s.length(); j++) {
-					if (s.charAt(i) == s.charAt(j)) {
-						count++;
+		String s = "AAAABBCCCDDDDDEEEG";                // declaring string 
+		ArrayList<Character> list = new ArrayList<>();  // starting char type arraylist 
+		for (int i = 0; i < s.length(); i++) {          // starting for loop 
+			int count = 1;                              //getting to know the count thats why declared int count
+			if (!list.contains(s.charAt(i))) {          //if arraylist not contains any string char 
+				list.add(s.charAt(i));                  // then add it 
+				for (int j = i + 1; j < s.length(); j++) {     // starting another for loop adding new value on top of old values 
+					if (s.charAt(i) == s.charAt(j)) {           // if old value equals to new one then 
+						count++;                                // increase the value by one 
 					}
 
 				}
 				
-				System.out.print(s.charAt(i) + "" + count);
+				System.out.print(s.charAt(i) + "-" + count+ " ");       //then print char and count 
 			}
 
 		}
 	}
 	
 	
+	public static void input_3() {
+		
+	String s = "AAAGGGFFFHHHTTTYYYSSSGGVFFF";
+	ArrayList<Character> list = new ArrayList<Character>();
+	for(int i=0; i<s.length(); i++) {
+		int count = 1;
+		if(!list.contains(s.charAt(i))) {
+			list.add(s.charAt(i));
+		for(int j=i+1; j<s.length(); j++) {
+			if(s.charAt(i)==s.charAt(j)) {
+				count++;
+			}
+		}
+			System.out.print(s.charAt(i) + "" + count +", ");
+		}
+	}
+	}
+	
+	public static void reverseString() {
+		String s = "Selenium testing By me";
+		String reverse = "";
+		for(int i = s.length()-1; i>=0; i--) {
+			reverse = reverse+s.charAt(i);
+			
+		}
+		System.out.println();
+		System.out.println(reverse);
+	}
 	
 	
-	
-	
-	
-	
-	
+	public static void reverse_words_in_Sentence() {
+		
+		String str = "Java is my favorite programming language";
+		String s [] = str.split(" ");
+		for(int i=0; i<s.length; i++) {
+			System.out.print(s[i]+ " ");
+		}
+		System.out.println("");
+		for(int i=s.length-1; i>=0; i--) {
+			System.out.print(s[i]+ " ");
+		}
+		
+	}
 	
 	
 	

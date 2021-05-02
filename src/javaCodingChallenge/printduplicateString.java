@@ -8,7 +8,7 @@ public class printduplicateString {
 
 	public static void main(String[] args) {
 		
-		printRepetetiveChar("selenium Selenium");
+		printRepetetiveChar("Selenium Selenium");
 		
 	}
 	
