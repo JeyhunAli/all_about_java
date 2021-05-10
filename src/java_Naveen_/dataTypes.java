@@ -208,8 +208,16 @@ Example #3
 		 * 
 		 * 
 		 * 
+		 * octal nummber starts with zero . the base of the octal number is 8
 		 * 
 		 * 
+		 * if there numbers defined with data type of byte and multiplication or any math operation is going over the range of 
+		 * byte it will throw compile time error 
+		 * to get outcome of these data types without any error we can define sum/or any result with integer or long 
+		 * or we can cast byte to the result 
+		 * 
+		 * 
+		 * streams concepts added to the jdk after 1.8
 		 * 
 		 * 
 		 * 
