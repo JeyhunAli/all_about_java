@@ -67,20 +67,26 @@ public class StringComparison {
 	
 	public static void input_3() {
 		
-	String s = "AAAGGGFFFHHHTTTYYYSSSGGVFFF";
-	ArrayList<Character> list = new ArrayList<Character>();
-	for(int i=0; i<s.length(); i++) {
-		int count = 1;
-		if(!list.contains(s.charAt(i))) {
-			list.add(s.charAt(i));
-		for(int j=i+1; j<s.length(); j++) {
-			if(s.charAt(i)==s.charAt(j)) {
-				count++;
-			}
-		}
-			System.out.print(s.charAt(i) + "" + count +", ");
-		}
-	}
+	String s = "AAAGGGFFFHHHTTTYYYSSSGGVFFfffF";
+	 ArrayList<Character> list = new ArrayList<Character>();
+	 for (int i=0; i<s.length(); i++) {
+		 int count = 1;
+		 if(!list.contains(s.charAt(i))) {
+			 list.add(s.charAt(i));
+			 for(int j=i+1; j<s.length(); j++) {
+				 if(s.charAt(i)==s.charAt(j)) {
+					 count++;
+				 }
+			 }
+			 System.out.print(s.charAt(i) + "" + count);
+		 }
+	 }
+	
+	
+	
+	
+	
+	
 	}
 	
 	public static void reverseString() {
@@ -97,17 +103,19 @@ public class StringComparison {
 	
 	public static void reverse_words_in_Sentence() {
 		
-		String str = "Java is my favorite programming language";
-		String s [] = str.split(" ");
-		for(int i=0; i<s.length; i++) {
-			System.out.print(s[i]+ " ");
-		}
-		System.out.println("");
-		for(int i=s.length-1; i>=0; i--) {
-			System.out.print(s[i]+ " ");
+	
+		
+		String s = "i love u so much";
+		System.out.println(s);
+		String split[]= s.split(" ");
+		for(int i=split.length-1; i>=0; i--) {
+			System.out.print(split[i] +" ");
 		}
 		
+		
+		
 	}
+	
 	
 	
 	
