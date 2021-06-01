@@ -86,9 +86,9 @@ public static void shiftArray2(int num) {
 	 System.out.println(Arrays.toString(arr));                        //converting to string array so that i can print in proper way
         
        for(int i = 0; i < num; i++){                                    //starting forLoop with given number so that i can rotate it 
-          int last = arr[arr.length-1];    
+          int last = arr[arr.length-1];                                //minus one helps us to make last array included 
            
-           for(int j = arr.length-1; j > 0; j--){  
+           for(int j = arr.length-1; j > 0; j--){                     
            	arr[j] = arr[j-1];    
            }
            arr[0] = last;    
