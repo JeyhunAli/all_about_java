@@ -84,6 +84,7 @@ public class dataTypes {
 		char c11 = 'b';
 		char c2 = '1';
 		char c3 = '$';
+		char c4 = 'b';
 
 		System.out.println(c1);
 		System.out.println(c1+c11);//97 + 98 = 195
@@ -100,7 +101,7 @@ public class dataTypes {
 		System.out.println(flag1);
 
 
-		//9. String:
+		//9. String: is Class in java 
 		String str = "Hello World";
 		System.out.println(str);
 
@@ -114,9 +115,19 @@ public class dataTypes {
 		System.out.println(123+23);
 
 		System.out.println(str + " " + str2 );
+		
+		
+
+		byte bc = 077;
+		System.out.println("octal number is --->>> " +bc);
 
 
-
+		byte bc1 = (byte)128;
+		System.out.println(bc1);  //-128
+		
+		byte bc2 = (byte)1288;
+		System.out.println(bc2);  // 0
+		
 
 
 
@@ -165,6 +176,48 @@ Dec  Char                           Dec  Char     Dec  Char     Dec  Char
  31  US  (unit separator)            63  ?         95  _        127  DEL
 
 		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * How to convert from octal to decimal
+A regular decimal number is the sum of the digits multiplied with 10n.
+
+Example #1
+137 in base 10 is equal to each digit multiplied with its corresponding 10n:
+
+13710 = 1×102+3×101+7×100 = 100+30+7
+
+Octal numbers are read the same way, but each digit counts 8n instead of 10n.
+
+Multiply each digit of the hex number with its corresponding 8n.
+
+Example #2
+37 in base 8 is equal to each digit multiplied with its corresponding 8n:
+
+378 = 3×81+7×80 = 24+7 = 31
+
+Example #3
+7014 in base 8 is equal to each digit multiplied with its corresponding power of 8:
+
+70148 = 7×83+0×82+1×81+4×80= 3584+0+8+4 = 3596
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * 
+		 * octal nummber starts with zero . the base of the octal number is 8
+		 * 
+		 * 
+		 * if there numbers defined with data type of byte and multiplication or any math operation is going over the range of 
+		 * byte it will throw compile time error 
+		 * to get outcome of these data types without any error we can define sum/or any result with integer or long 
+		 * or we can cast byte to the result 
+		 * 
+		 * 
+		 * streams concepts added to the jdk after 1.8
 		 * 
 		 * 
 		 * 

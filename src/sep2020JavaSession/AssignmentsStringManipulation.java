@@ -160,7 +160,7 @@ public class AssignmentsStringManipulation {
 
 	public static void breakString() {
 
-		String ElonMusk_Children = "X Æ A-Xii, Nevada Alexander Musk, Kai Musk, Saxon Musk, Xavier Musk, Damian Musk, Griffin Musk";
+		String ElonMusk_Children = " 9 X Æ A-Xii, Nevada Alexander Musk, Kai Musk, Saxon Musk, Xavier Musk, Damian Musk, Griffin Musk";
 
 		String[] splitchildren = ElonMusk_Children.split(",");
 
